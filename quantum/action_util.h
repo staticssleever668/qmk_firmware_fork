@@ -31,6 +31,8 @@ extern report_nkro_t *nkro_report;
 #endif
 
 void send_keyboard_report(void);
+void buffer_send_keyboard_report(void);
+void flush_send_keyboard_report(void);
 
 /* key */
 inline void add_key(uint8_t key) {

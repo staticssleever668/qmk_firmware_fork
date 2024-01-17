@@ -958,10 +958,10 @@ __attribute__((weak)) void register_code(uint8_t code) {
             send_keyboard_report();
         }
         add_key(code);
-        send_keyboard_report();
+        buffer_send_keyboard_report();
     } else if (IS_MODIFIER_KEYCODE(code)) {
         add_mods(MOD_BIT(code));
-        send_keyboard_report();
+        buffer_send_keyboard_report();
 
 #ifdef EXTRAKEY_ENABLE
     } else if (IS_SYSTEM_KEYCODE(code)) {
