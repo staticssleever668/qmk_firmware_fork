@@ -1,5 +1,19 @@
 # Quantum Mechanical Keyboard Firmware
 
+ss668 (Yaroslav Chvanov) fork.
+This branch will be repeatedly rebased on Vial's master branch.
+Features:
+
+- DK64RGB support
+  See <https://sr.ht/~showy_fence/dk64rgb-everything> and
+  TinyUF2 Bootloader <https://github.com/staticssleever668/tinyuf2/tree/xbladefly_dk64rgb>
+- Buffer key presses to avoid chord splitting
+  May cause issues with mod taps and stuff
+
+This leaves in a separate standalone repo to aid GitHub search indexing.
+
+## ...
+
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
 [![Discord](https://img.shields.io/discord/440868230475677696.svg)](https://discord.gg/qmk)
 [![Docs Status](https://img.shields.io/badge/docs-ready-orange.svg)](https://docs.qmk.fm)
